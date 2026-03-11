@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Pensamento } from '../pensamentos/pensamento';
-import { PensamentoService } from '../pensamentos/pensamento.service';
+
 import { Router } from '@angular/router';
+import { PensamentoService } from '../pensamento.service';
+import { Pensamento } from '../pensamento';
 
 @Component({
   selector: 'app-criar-pensamento',
