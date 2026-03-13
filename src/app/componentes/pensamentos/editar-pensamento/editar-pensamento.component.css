@@ -32,6 +32,7 @@
 .editar-pensamentos form .input {
   border: none;
   height: 40px;
+  color: #808080;
   padding: 1rem 2rem;
   border-radius: 20px;
   margin: 0.5rem 0 2rem;
@@ -127,4 +128,12 @@ input[type="radio"]:checked + .custom-radio {
 
 input[type="radio"]:checked + .custom-radio span {
   background: #154580;
+}
+
+.mensagem__erro {
+  font-size: 12px;
+  margin-left: 5px;
+  color: red;
+  margin-top: -25px;
+  margin-bottom: 20px;
 }
