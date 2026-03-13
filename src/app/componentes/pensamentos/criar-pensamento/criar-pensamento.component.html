@@ -12,7 +12,7 @@
       placeholder="Digite o pensamento"
     />
 
-    <div *ngIf="formulario.get('conteudo')?.dirty">
+    <div *ngIf="formulario.get('conteudo')?.touched">
       <p
         class="mensagem__erro"
         *ngIf="formulario.get('conteudo')?.hasError('required')"
@@ -30,7 +30,7 @@
       placeholder="Digite a autoria ou fonte"
     />
 
-    <div *ngIf="formulario.get('autoria')?.dirty">
+    <div *ngIf="formulario.get('autoria')?.touched">
       <p
         class="mensagem__erro"
         *ngIf="formulario.get('autoria')?.hasError('required')"
